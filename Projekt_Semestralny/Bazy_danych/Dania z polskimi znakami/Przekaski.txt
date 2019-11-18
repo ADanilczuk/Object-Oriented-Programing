@@ -1,0 +1,17 @@
+23; Garść truskawek;
+30; Cukinia zapiekana z pomidorami i sosem ziołowo-koperkowym;
+32; Szklanka soku pomidorowego;
+69; Grillowane plasterki jabłka z cynamonem;
+70; Pieczona połówka jabłka;
+70; Pomarańcza;
+75; 250g arbuza;
+94; Jabłko;
+97; Sos jogurtowy z marchewką pokrojoną w słupki;
+98; Szklanka soku pomarańczowego;
+102; Sos czosnkowy z ogorkiem pokrojonym w słupki;
+125; Szklanka soku jabłkowego;
+130; Muffinka jogurtowa z truskawkami;
+131; Sos czosnkowy z papryką pokrojoną w słupki;
+186; Sałata z nektarynkami i fetą;
+312; Pomidory z mozzarellą;
+380; Sałatka z kurczakiem, papryką i orzeszkami nerkowca;

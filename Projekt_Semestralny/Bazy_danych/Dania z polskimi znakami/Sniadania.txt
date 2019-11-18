@@ -1,0 +1,18 @@
+141; 2 kanapki z twarożkiem i pomidorem;
+194; Jogurt z truskawkami i gorzką czekoladą;
+208; Omlet z warzywami;
+215; Grzanka z brokułami i serem;
+239; Jajecznica z kurkami;
+243; Musli z mlekiem i otrębami;
+258; Fritata z papryką i pomidorem;
+315; Naleśnik z twarogiem i dżemem;
+316; Jajecznica na maśle z kromką chleba razowego;
+321; Omlet z serem i pomidorkami koktajlowymi;
+323; Jajko sadzone z dwoma kromkami chleba razowego;
+340; Kanapka z rukolą, mozzarellą i pomidorem;
+378; 2 plastry jabłka smażone w pełnoziarnistym cieście;
+414; Jajko na miękko z bagietką francuską i szynką drobiową;
+426; 2 kanapki z twarogiem wędzonym, jajkiem i warzywami;
+438; 2 jajka w koszulkach po florentyńsku;
+470; Omlet z kurkami i warzywami;
+643; Owsianka z owocami;

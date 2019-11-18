@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1530112708 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii\main.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530124391 c:\aluœ\uniwerek\po_p\projekt_sem_ii\menu.hpp
+	"posilki.hpp"
+
+1530124391 c:\aluœ\uniwerek\po_p\projekt_sem_ii\posilki.hpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+
+1529941982 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii\menu.cpp
+
+1530112648 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii\posilki.cpp
+	"posilki.hpp"
+
+1530140080 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii -druga wersja\main.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530142034 c:\aluœ\uniwerek\po_p\projekt_sem_ii -druga wersja\menu.hpp
+	"posilki.hpp"
+
+1530141514 c:\aluœ\uniwerek\po_p\projekt_sem_ii -druga wersja\posilki.hpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+
+1529941982 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii -druga wersja\menu.cpp
+
+1530141263 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii -druga wersja\posilki.cpp
+	"posilki.hpp"
+
+1530217294 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii -trzecia wersja\main.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530217466 c:\aluœ\uniwerek\po_p\projekt_sem_ii -trzecia wersja\menu.hpp
+	"posilki.hpp"
+
+1530216558 c:\aluœ\uniwerek\po_p\projekt_sem_ii -trzecia wersja\posilki.hpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+	<random>
+	<windows.h>
+
+1530217425 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii -trzecia wersja\menu.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530216633 source:c:\aluœ\uniwerek\po_p\projekt_sem_ii -trzecia wersja\posilki.cpp
+	"posilki.hpp"
+
+1530231819 source:c:\aluœ\uniwerek\po_p\projekt_semestralny\main.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+	<windows.h>
+
+1530231573 c:\aluœ\uniwerek\po_p\projekt_semestralny\menu.hpp
+	"posilki.hpp"
+
+1530232083 c:\aluœ\uniwerek\po_p\projekt_semestralny\posilki.hpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+	<windows.h>
+
+1530233323 source:c:\aluœ\uniwerek\po_p\projekt_semestralny\menu_dialog_z_u¿ytkownikiem.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530235490 source:c:\aluœ\uniwerek\po_p\projekt_semestralny\menu_operacje_na_listach.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530238303 source:c:\aluœ\uniwerek\po_p\projekt_semestralny\posi³ki.cpp
+	"posilki.hpp"
+
+1530231819 source:c:\users\alicja\desktop\projekt_semestralny\main.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+	<windows.h>
+
+1530231573 c:\users\alicja\desktop\projekt_semestralny\menu.hpp
+	"posilki.hpp"
+
+1530232083 c:\users\alicja\desktop\projekt_semestralny\posilki.hpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+	<list>
+	<windows.h>
+
+1530233323 source:c:\users\alicja\desktop\projekt_semestralny\menu_dialog_z_u¿ytkownikiem.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530257028 source:c:\users\alicja\desktop\projekt_semestralny\menu_operacje_na_listach.cpp
+	"Menu.hpp"
+	"posilki.hpp"
+
+1530238303 source:c:\users\alicja\desktop\projekt_semestralny\posi³ki.cpp
+	"posilki.hpp"
+
+1530235106 source:c:\users\alicja\desktop\projekt_semestralny\reource.rc
+
+1530235106 source:c:\aluœ\uniwerek\po_p\projekt_semestralny\reource.rc
+
