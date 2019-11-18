@@ -1,0 +1,50 @@
+﻿Alicja Danilczuk - Zadanie 2 Lista 5 - Wyrażenia arytmetyczne
+
+1/ Opis zadania
+
+  Wyrażenia arytmetyczne można reprezentować jako drzewa, 
+  gdzie w liściach pamiętane są liczby, a w węzłach symbole 
+  operacji arytmetycznych. Zaimplementuj w Javie odpowiednie
+  klasy reprezentujące węzły i liście takiego drzewa jako podklasy 
+  klasy Wyrażenie. W każdej klasie zdefiniuj metodę
+  public int oblicz(); obliczającą wartość wyrażenia reprezentowanego 
+  przez obiekt. 
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 9 plików(klas):
+					  
+- Dodaj.java - Klasa implementująca operację dodawania
+- Odejmij.java - Klasa implementująca operację odejmowania
+- Podziel.java - Klasa implementująca operację mnożenia
+- Pomnoz.java - Klasa implementująca operację dzielenia
+- Stała.java - Klasa implementująca stałe 
+- Zmienna.java - Klasa implementująca zmienne
+- Wyrazenie.java - Klasa implementująca wyrażenia, czyli liście 
+				   oraz węzły naszego drzewa. Bezpośrednio
+				   z Wyrażenia dziedziczą klasy implementujące liście, 
+				   tzn zawierające zmienne lub stałe
+- Wezel.java - Klasa implementująca węzły, czyli dwuargumentowe 
+			   operacje arytmetyczne działające na zmiennych, 
+			   stałych lub wynikach poddrzew
+- Main.java - Klasa zawierająca metodę "Main", która prezentuje 
+			  działanie klas programu
+
+	
+Metody klas:
+	
+	Podklasy klasy wyrażenie zawierają nadpisanie metody oblicz(),
+	mówiącej o sposobie wyliczenia wyrażenia z konkretnej klasy.
+	Podklasy zawierają również nadpisanie metody wypisz(),
+	mówiącej o sposobie zwracania wyrażenia z konkretnej klasy w formie napisu.
+	
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - Java.
+Kompilator - Eclipse
+
+
+        
+        
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1519911377 source:c:\aluœ\uniwerek\po\lista1\main.cpp
+	<cstdio>
+	"funkcje.h"
+
+1519911748 c:\aluœ\uniwerek\po\lista1\funkcje.h
+	<cstdio>
+
+1520024443 source:c:\aluœ\uniwerek\po\lista1\zadanie 2\main.cpp
+	<cstdio>
+	"funkcje.h"
+
+1520024555 c:\aluœ\uniwerek\po\lista1\zadanie 2\funkcje.h
+	<cstdio>
+

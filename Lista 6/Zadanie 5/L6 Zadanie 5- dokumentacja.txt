@@ -1,0 +1,39 @@
+Alicja Danilczuk - Zadanie 3 Lista 5 - Wyrażenia  i dodatkowe funkcje programów
+
+1/ Opis zadania
+
+  Algorytm sortowania tablicy elementów przez scalanie działa następująco:
+  najpierw tablica jest dzielona na pół. Następnie każda z tych mniejszych
+  tablic jest porządkowana. Na końcu obydwie posortowane tablice są scalane. 
+  Zaprogramuj sortowanie przez scalanie tablicy elementów int tak, aby 
+  operacje sortowania podtablic były odrębnymi wątkami.
+
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 2 plików(klas):
+	
+	- Mergesort.java - Klasa zawierająca algorytm sortowania przez scalanie, implementująca 
+					   interfejs Runnable, czyli interfejs do obsługi wątków
+	- Program.java - Klasa zawierająca metodę "Main", która prezentuje działanie 
+				     programu sortując listę losowych liczb
+
+
+	
+Metody klasy Mergesort:
+- run - Nadpisanie metody run() z interfejsu Runnable, w której
+		uruchamiamy metodę mergesort
+- merge - Metoda scalająca posortowane tablice
+- mergesort - Metoda dzieląca tablice na dwie mniejsze, uruchamiająca wątki
+		
+
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - Java.
+Kompilator - Eclipse
+
+
+        
+        
+

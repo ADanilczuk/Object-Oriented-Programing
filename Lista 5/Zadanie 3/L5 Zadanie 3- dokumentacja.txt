@@ -1,0 +1,48 @@
+﻿Alicja Danilczuk - Zadanie 3 Lista 5 - Wyrażenia  i dodatkowe funkcje programów
+
+1/ Opis zadania
+
+  Zadanie to jest rozszerzeniem poprzedniego zadania. Podobnie 
+  jak wyrażenia możemy też w postaci drzew reprezentować programy. 
+  Zaproponuj odpowiednią hierarchię klas, które będą reprezentowały 
+  • instrukcję przypisania 
+  • instrukcję warunkową 
+  • instrukcję pętli 
+  • wypisanie komunikatu (stringa) na konsolę. 
+  Możemy przyjąć, że wyrażenia arytmetyczne można interpretować 
+  jako wyrażenia logiczne tak jak np. w języku C. Jako przykład 
+  podam niebanalny program obliczający silnię.
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 13 plików(klas), z których 8 jest 
+plikami z zadania 2 więc ich opis znajduje się w jego specyfikacji. 
+Pozostałe pliki to natomiast:
+	
+	- Komunikat.java - Klasa reprezentująca wypisanie komunikatu na konsolę
+	- Pętla.java - Klasa reprezentująca pętle w programie
+	- Przypisanie.java - Klasa reprezentująca przypisanie zmiennej jakiejś 
+						 wartości wymagającej obliczenia 
+	- Warunek.java - Klasa reprezentująca instrukcję warunkową
+	- Main.java - Klasa zawierająca metodę "Main", która prezentuje działanie 
+				  klas programu za pomocą algorytmu wyliczania silni 
+
+
+	
+Metody klas:
+	
+	Podklasy klasy wyrażenie zawierają nadpisanie metody oblicz(),
+	mówiącej o sposobie wyliczenia wyrażenia z konkretnej klasy.
+	Podklasy (poza klasą Komunikat) zawierają również nadpisanie metody wypisz(),
+	mówiącej o sposobie zwracania wyrażenia z konkretnej klasy w formie napisu.
+	
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - Java.
+Kompilator - Eclipse
+
+
+        
+        
+

@@ -1,0 +1,54 @@
+﻿Alicja Danilczuk - Zadanie 2 Lista 3 - Słownik
+
+1/ Opis zadania
+
+  Zaimplementuj klasę Słownik<K,V> przechowującą pary elementów, 
+  gdzie pierwszym elementem pary jest klucz, a drugim wartość. 
+  Klasa powinna implementować metodę dodawania, wyszukiwania 
+  i usuwania elementu wskazywanego przez klucz. 
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 2 plików:
+					  
+- Klasy.cs - plik, w którym umieszczona jest klasy i metody potrzebne 
+			do prawidłowego działania programu.
+- Program.cs - plik zawierający wyłącznie klasę program w zawierającą
+				metodę "Main", która służy jako menu do obsługi programu.
+				
+Struktura pliku Klasy.cs:
+
+- klasa <element<K, V>> - Klasa tworząca poszczególne elementy słownika
+						  gdzie klucze mogą być porównywane ze sobą
+						 
+- klasa <Slownik<K, V>> -Klasa tworząca słownik, gdzie klucze 
+						mogą być porównywane ze sobą
+	
+	
+Metoda klasy <element<K, V>> z pliku Klasy.cs:
+	
+- element() - Konstruktor nadający wartości początkowe 
+			  pól klasy element na null
+			  
+Metody klasy <Slownik<K, V>> z pliku Klasy.cs:
+	
+- Slownik() - Konstruktor tworzący pierwszy element słownika
+- Dodaj(K key, V val) - Metoda dodająca element do słownika i 
+						dodatkowo zapisująca go jako head
+- Wyszukaj(K key) - Metoda wyszukująca w słowniku element 
+					o podanym kluczu i zwracająca jego wartość
+- Usuń(K key) - Metoda usuwająca ze słownika element o podanym kluczu
+- Wyswietl() - Metoda wyświetlająca wszystkie hasła ze słownika
+	  
+
+
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - C#.
+Kompilator - Visual Studio 2017
+
+
+        
+        
+

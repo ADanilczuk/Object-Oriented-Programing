@@ -1,0 +1,7 @@
+def klc
+x1 ="a"
+x2 = x1.next
+while x2 != "z"
+klucz = { x1 => x2 }
+x1 = x1.next
+x2 = x1.next

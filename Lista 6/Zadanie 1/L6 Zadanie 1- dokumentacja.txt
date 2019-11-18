@@ -1,0 +1,47 @@
+Alicja Danilczuk - Zadanie 3 Lista 5 - Wyrażenia  i dodatkowe funkcje programów
+
+1/ Opis zadania
+
+  Wybierz dowolne zadanie z poprzednich list dot. kolekcji 
+  (listy, grafy itp) i zaprogramuj je w Javie. Wymuś, aby 
+  implementowana kolekcja implementowała interfejs Serializable 
+  (z pakietu java.io) tak, aby można było zapisywać i odczytywać 
+  kolekcję z pliku dyskowego. Jako ilustrację programu podaj program, 
+  który zapisuje kolekcję na dysku a następnie ją odzyskuje. 
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 3 plików(klas):
+	
+	- Lista.java - Klasa tworząca listę, wyorzystująca interfejs Serializable
+	- Element.java - Klasa tworząca element listy
+	- Program.java - Klasa zawierająca metodę "Main", która prezentuje działanie 
+				     klas programu serializując listę liczb i napisów następnie 
+					 wyświetla te listy po zdeserializowaniu
+
+
+	
+Metody klasy Element<T>:
+- Konstruktor bezargumentowy niezawierający ciała metody, jednak niezbędny do 
+  zaimplementowania interfejsu Serializable
+- Konstruktor przypisujący elementowi przesyłaną wartość 
+
+Metody klasy Lista<T>:
+- DodajNaKoniec - Metoda dodająca element na koniec listy
+- DodajNaPoczątek - Metoda dodająca element na początek listy
+- UsunZKonca - Metoda usuwająca element z końca listy
+- UsunZPoczatku - Metoda usuwająca element z początku listy
+- CzyPusta - Metoda sprawdzająca czy lista jest pusta
+- Wypisz - Metoda wypisująca wszystkie elementy listy
+
+
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - Java.
+Kompilator - Eclipse
+
+
+        
+        
+

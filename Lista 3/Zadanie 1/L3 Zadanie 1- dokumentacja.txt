@@ -1,0 +1,44 @@
+﻿Alicja Danilczuk - Zadanie 1 Lista 3 - Lista
+
+1/ Opis zadania
+
+ Zaprogramuj klasę Lista<T> implementującą metody dodawania i usuwania elementów z początku
+ i końca listy, oraz metodę sprawdzania jej niepustości. Istotne jest, aby elementy listy 
+ nie były obiektami klasy Lista, lecz elementami innej klasy, której polami są: pole 
+ zawierające wartość typu T, oraz odnośniki do innych elementów listy. Przyjmij taką 
+ implementację klasy Lista, aby działała ona efektywnie zarówno gdy jest wykorzystywana 
+ jako kolejka, jak i stos, tj. aby operacje dodawania i usuwania elementów na początek i 
+ koniec działały w czasie stałym. Operacja (metoda) usuwania elementu powinna zwracać jako
+ wartość usuwany element. 
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 2 plików:
+					  
+- Klasa.cs - plik, w którym umieszczona jest klasa i metody potrzebne 
+			do prawidłowego działania programu.
+- Program.cs - plik zawierający wyłącznie klasę program w zawierającą
+				metodę "Main", która służy jako menu do obsługi programu.
+				
+Struktura pliku Klasy.cs:
+
+- klasa <Lista<T>> -klasa implementująca listę elementów
+	
+Metody klasy <Lista<T>> z pliku Klasa.cs:
+	
+- Add_begin(T val)- Metoda dodająca element na początek listy
+- Add_end(T val) - Metoda dodająca element na koniec listy
+- Test_if_empty() - Metoda sprawdzająca czy lista jest pusta
+- Show() - Metoda wyświetlająca wszystkie elementy listy
+
+
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - C#.
+Kompilator - Visual Studio 2017
+
+
+        
+        
+

@@ -1,0 +1,41 @@
+﻿Alicja Danilczuk - Zadanie 2 Lista 4 - Liczby pierwsze
+
+1/ Opis zadania
+
+Zaprogramuj klasę PrimeCollection implementującą interfejs IEnumerable
+(bądź IEnumerable<T>). Obiekty tej klasy powinne być kolekcją
+liczb pierwszych. Jednak kolekcja ta nie powinna budować prawdziwej kolekcji,
+tylko ”w locie” obliczać kolejną liczbę pierwszą.
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z 2 plików:
+					  
+- Klasy.cs - plik, w którym umieszczone są klasy i metody potrzebne 
+			do prawidłowego działania programu.
+- Zadanie 2.cs - plik zawierający wyłącznie klasę program w zawierającą
+				metodę "Main", która służy jako menu do obsługi programu.
+				
+Struktura pliku Klasy.cs:
+
+- klasa <PrimeCollection> -klasa wykorzystująca wbudowany interfejs IEnumerable
+
+- klasa <Primes> -klasa wykorzystująca wbudowany interfejs IEnumerator
+	
+Metody klasy <Primes> z pliku Klasy.cs:
+	
+- MoveNext() - Metoda przechodząca do następnej liczby naturalnej.
+- Sprawdz_pierwszosc(int i) - Metoda sparwdzająca czy liczba i jest pierwsza.
+- Current - Metoda wypisująca liczbę pierwszą.
+
+
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - C#.
+Kompilator - Visual Studio 2017
+
+
+        
+        
+

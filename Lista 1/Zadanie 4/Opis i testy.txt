@@ -1,0 +1,55 @@
+Zaprogramuj w³asn¹ tablicê indeksowan¹ dowoln¹ liczb¹ ca³kowit¹ wraz z operacjami
+wstawiania i pobierania elementów z podanej pozycji w tablicy. Po utworzeniu takiej
+tablicy jest ona d³ugoœci zero. Po wykonaniu pierwszej operacji wstawienia na jak¹œ pozycjê
+(powiedzmy, 2), tablica jest ju¿ jednolementowa. Kolejne wstawienie, na przyk³ad na pozycjê
+-3, powoduje rozszerzenie tablicy tak, ¿e zawiera ona pozycje o indeksach [-3..2].
+Przyjmij, ¿e w tablicy przechowujemy wartoœci dowolnego typu zdefiniowanego za pomoc¹
+delklaracji typedef.
+
+
+ilosc elementow: 3
+
+indeks: 2 wartosc: 7
+indeks: 9 wartosc: 6
+indeks: 1 wartosc: 5
+
+wyswietl element: 1
+"Wartosc elementu o wybranym indeksie jest rowna 5"
+
+wyswietlana lista:
+1 wartosc: 5
+2 wartosc: 7
+9 wartosc: 6
+___________________
+
+ilosc elementow: 4
+
+indeks: 2 wartosc: 7
+indeks: -5 wartosc: 5
+indeks: 4 wartosc: 6
+indeks: 1 wartosc: 5
+
+wyswietl element: 3
+"Nie ma elementu o podanym indeksie"
+
+wyswietlana lista:
+-5 wartosc: 5
+1 wartosc: 5
+2 wartosc: 7
+4 wartosc: 6
+____________________
+
+ilosc elementow: 3
+
+indeks: 2 wartosc: 7
+indeks: 9 wartosc: 6
+indeks: 2 wartosc: 5
+
+"element o danym indeksie juz istnieje, ten zostanie wiec pominiety"
+
+wyswietl element: 9
+"Wartosc elementu o wybranym indeksie jest rowna 6"
+
+wyswietlana lista:
+2 wartosc: 7
+9 wartosc: 6

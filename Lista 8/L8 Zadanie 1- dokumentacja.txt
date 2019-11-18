@@ -1,0 +1,46 @@
+Alicja Danilczuk - Zadanie 3 Lista 5 - Wyrażenia  i dodatkowe funkcje programów
+
+1/ Opis zadania
+
+  Rozszerz standardową klasę Fixnum o metody:
+  
+	• 	zeroargumentową metodę czynniki zwracającą tablicę wszystkich dzielników liczby
+		włącznie z jedynką i nią samą (kolejność nie jest ważna). Przykładowo 6.czynniki
+		powinno zwrócić tablicę [1, 2, 3, 6];
+		
+	•	jednoargumentową metodę ack(y) obliczającą funkcję Ackermanna zdefiniowaną 
+		następująco:
+		
+						m + 1 gdy n = 0
+		Ack(n, m) =		Ack(n − 1, 1) gdy m = 0
+						Ack(n − 1, Ack(n, m − 1)) w pozostałych przypadkach
+						
+	Na przykład 2.ack(1) powinno dać 5. Uwaga: funkcja ta bardzo długo liczy, nawet dla
+	niedużych argumentów, więc nie testujcie jej na dużych (> 2) liczbach;
+
+	•	zeroargumentowa metoda doskonala, która zwraca true gdy liczba jest doskonała;
+	
+	• zeroargumentową metodę zamieniającą liczbę na jej postać słowną. Można przyjąć, że
+	  postać słowna jest uproszczona, np. 123.slownie powinno zwrócić ”jeden dwa trzy”.
+
+2/ Przewodnik po programie
+
+Program jest zbudowany z pliku zawierającego rozszerzenie klasy Fixnum, czyli 
+wzbogacoej o metody:
+	
+	- czynniki - Metoda wypisująca wszystkie czynniki podanej liczby
+	- ack - Metoda obliczająca wynik funkcji Ackermanna dla podanych liczb
+	- doskonala - Metoda sprawdzająca czy liczba jest doskonała
+	- slownie - Metoda wypisująca słownie wszystkie cyfry podanej liczby 
+
+
+3/ Informacje o kompilacji, języku i systemie
+
+System operacyjny - Windows 10.
+Język - Ruby.
+Kompilator - 
+
+
+        
+        
+

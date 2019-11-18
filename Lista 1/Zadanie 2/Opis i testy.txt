@@ -1,0 +1,60 @@
+Zaprojektuj w³asny typ Ulamki reprezentuj¹ce u³amki, gdzie licznik i mianownik
+s¹ liczbami ca³kowitymi, tj. zaprogramuj odpowiednie struktury danych s³u¿¹ce do przechowywania
+wartoœci tego typu oraz funkcje implementuj¹ce cztery standardowe operacje arytmetyczne
+na u³amkach. Zaimplementuj dwie mo¿liwe realizacje takich funkcji: w pierwszej
+funkcja zwraca wskaŸnik do nowoutworzonego elementu tego typu; w drugiej funkcja modyfi-
+kuje drugi z argumentów.
+Przyjmij, ¿e wszystkie u³amki s¹ w postaci nieskracalnej, oraz jeœli u³amek jest liczb¹
+ujemn¹, to ujemny jest licznik.
+
+
+TESTY
+
+Licznik pierwszego ulamka 1
+Mianownik pierwszego ulamka 3
+Licznik drugiego ulamka 5
+Mianownik drugiego ulamka 6
+
+
+ Wyniki po przeprowadzeniu operacji:
+Dodawanie: 7/6
+Mnozenie: 5/18
+Odejmowanie: -1/2
+Dzielenie: 2/5
+Suma z referencja: 7/6
+Odejmowanie z referencja: -5/6
+Mnozenie z referencja: -5/18
+Dzielenie z referencja: -6/5
+
+
+Licznik pierwszego ulamka 18
+Mianownik pierwszego ulamka 3
+Licznik drugiego ulamka 9
+Mianownik drugiego ulamka 1
+
+ Wyniki po przeprowadzeniu operacji:
+Dodawanie: 15/1
+Mnozenie: 54/1
+Odejmowanie: -3/1
+Dzielenie: 2/3
+Suma z referencja: 15/1
+Odejmowanie z referencja: -9/1
+Mnozenie z referencja: -54/1
+Dzielenie z referencja: -1/9
+
+
+Licznik pierwszego ulamka 7
+Mianownik pierwszego ulamka 8
+Licznik drugiego ulamka 0
+Mianownik drugiego ulamka 11
+
+
+ Wyniki po przeprowadzeniu operacji:
+Dodawanie: 7/8
+Mnozenie: 0/1
+Odejmowanie: 7/8
+Nie wolno dzielic przez 0!
+Suma z referencja: 7/8
+Odejmowanie z referencja: 0/1
+Mnozenie z referencja: 0/1
+Nie wolno dzielic przez 0!
